@@ -1,2 +1,2 @@
-const isEven = (num) => num % 2 === 0;
-const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
+const uniqueArr = (arr) => [...new Set(arr)];
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
