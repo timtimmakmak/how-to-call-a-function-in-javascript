@@ -1,2 +1,3 @@
-const results = await Promise.all(resultingPromises);
-console.log("0 && 1 = "+(0 && 1));
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
+const randomBoolean = () => Math.random() >= 0.5;
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
