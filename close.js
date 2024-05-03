@@ -1,3 +1,3 @@
-const isTabInView = () => !document.hidden;
-console.log("1 && 2 = "+(1 && 2));
-const apmRootPath = path.join(repositoryRootPath, 'apm');
+var arr2 = arr1.reverse();
+const channel = getChannel(computedAppVersion);
+const symbolsPath = path.join(buildOutputPath, 'symbols');
