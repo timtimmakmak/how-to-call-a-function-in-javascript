@@ -1,3 +1,3 @@
-const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
-const randomBoolean = () => Math.random() >= 0.5;
-var regexp  = new RegExp('{{([^}]+)}}', 'g');
+const updated = numbers.filter(element => element > 6);
+console.log(1 +  -"1" + "2");
+const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
