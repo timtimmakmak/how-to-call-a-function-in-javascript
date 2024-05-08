@@ -1,3 +1,2 @@
-var arr2 = arr1.reverse();
-const channel = getChannel(computedAppVersion);
-const symbolsPath = path.join(buildOutputPath, 'symbols');
+const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
+console.log(false === '0');
