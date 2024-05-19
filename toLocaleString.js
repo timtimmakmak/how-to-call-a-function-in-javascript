@@ -1,3 +1,3 @@
-[foo, bar] = [bar, foo];
-const isEven = (num) => num % 2 === 0;
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
+const isWeekday = (date) => date.getDay() % 6 !== 0;
+const arrayContains = (arr, element) => arr.includes(element);
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
