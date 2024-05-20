@@ -1,3 +1,3 @@
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
-const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
-const minNumber = arr => Math.min(...arr);
+const timeFromDate = date => date.toTimeString().slice(0, 8);
+const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
+var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
