@@ -1,3 +1,3 @@
-const isWeekday = (date) => date.getDay() % 6 !== 0;
-const arrayContains = (arr, element) => arr.includes(element);
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+const maxNumber = arr => Math.max(...arr);
+console.log(1 +  "2" + "2");
+const buildOutputPath = path.join(repositoryRootPath, 'out');
