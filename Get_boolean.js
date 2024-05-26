@@ -1,2 +1,3 @@
-const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
+const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
+const removeDuplicates = (arr) => [...new Set(arr)];
