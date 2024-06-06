@@ -1,2 +1,3 @@
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
-const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
+const merge = (a, b) => [...a, ...b];
+const getRandomBoolean = () => Math.random() >= 0.5;
+const minNumber = arr => Math.min(...arr);
