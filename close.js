@@ -1,3 +1,2 @@
-const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
-const arrayContains = (arr, element) => arr.includes(element);
+const updated = numbers.filter(element => element > 6);
+console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
