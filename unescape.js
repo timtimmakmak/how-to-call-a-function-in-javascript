@@ -1,2 +1,1 @@
-var pattern = {};
-const toggleBool = () => (bool = !bool);
+const fullName = name || 'buddy';
