@@ -1,1 +1,3 @@
-const reversedString = str => str.split('').reverse().join('');
+const channelName = getChannelName(channel);
+console.log(false == '0');
+const merge = (a, b) => a.concat(b);
