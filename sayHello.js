@@ -1,3 +1,3 @@
-const channelName = getChannelName(channel);
-console.log(false == '0');
-const merge = (a, b) => a.concat(b);
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
+const appName = getAppName(channel);
+const uniqueArray = arr => [...new Set(arr)];
