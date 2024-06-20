@@ -1,1 +1,2 @@
-console.log(false == '0');
+const allResults = await Promise.all(items.map(async (item) => {}));
+var DELIM_SIZE = 4;
