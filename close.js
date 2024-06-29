@@ -1,3 +1,3 @@
-const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
-const resultingPromises = urls.map((url) => makHttpRequest(url));
+const dayDif = (date1, date2) => Math.ceil(Math.abs(date1.getTime() - date2.getTime()) / 86400000);
+const isTabInView = () => !document.hidden;
+const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
