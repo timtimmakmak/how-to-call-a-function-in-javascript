@@ -1,1 +1,1 @@
-var arr1 = "john".split('');
+var arr3 = "jones".split('');
