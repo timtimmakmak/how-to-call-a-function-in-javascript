@@ -1,3 +1,3 @@
-const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
-console.log(false == '0');
-const channelName = getChannelName(channel);
+function myAPITS(someString: string, someNum: number) { ... };
+var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+const buildOutputPath = path.join(repositoryRootPath, 'out');
