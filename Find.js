@@ -1,3 +1,2 @@
-function myAPITS(someString: string, someNum: number) { ... };
-var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
-const buildOutputPath = path.join(repositoryRootPath, 'out');
+const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
+const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
