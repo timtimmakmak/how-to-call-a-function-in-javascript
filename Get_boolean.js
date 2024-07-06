@@ -1,2 +1,3 @@
-const maxNumber = arr => Math.max(...arr);
-function myAPITS(someString: string, someNum: number) { ... };
+const minNumber = arr => Math.min(...arr);
+const sumArray = arr => arr.reduce((total, current) => total + current, 0);
+console.log("0 || 1 = "+(0 || 1));
