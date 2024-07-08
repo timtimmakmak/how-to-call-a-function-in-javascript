@@ -1,2 +1,2 @@
-const stringReverse = str => str.split("").reverse().join("");
-const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+const shuffledArray = array.sort(() => Math.random() - 0.5); 
+var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
