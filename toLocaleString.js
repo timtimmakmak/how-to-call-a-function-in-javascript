@@ -1,1 +1,2 @@
-const maxNumber = arr => Math.max(...arr);
+const uniqueArray = arr => [...new Set(arr)];
+const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
