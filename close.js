@@ -1,2 +1,3 @@
-const resultingPromises = urls.map((url) => makHttpRequest(url));
-const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+function myAPITS(someString: string, someNum: number) { ... };
+const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
+const reversedString = str => str.split('').reverse().join('');
