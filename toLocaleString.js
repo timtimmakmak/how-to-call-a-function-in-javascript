@@ -1,3 +1,2 @@
-const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
-const added = [0, 1, 2, 3, 4].map((item) => item + 1);
-const result = await makeHttpRequest(url);
+const scriptRootPath = path.join(repositoryRootPath, 'script');
+const getRandomBoolean = () => Math.random() >= 0.5;
