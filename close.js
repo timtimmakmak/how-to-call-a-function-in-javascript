@@ -1,3 +1,2 @@
-const reversedString = str => str.split('').reverse().join('');
-const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
+const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
 const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
