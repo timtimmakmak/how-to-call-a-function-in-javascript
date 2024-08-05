@@ -1,2 +1,2 @@
-const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
-const flattenedArray = arr => [].concat(...arr);
+const isEven = (num) => num % 2 === 0;
+const lastElement = arr => arr[arr.length - 1];
